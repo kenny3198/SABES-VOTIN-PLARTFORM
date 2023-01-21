@@ -123,5 +123,14 @@ export default {
     font-size: 1.3rem;
     cursor: pointer;
   }
+  @media screen and (max-width: 600px) {
+    .container-button{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 7px;
+      width: 100%;
+    }
+  }
   
 </style>
