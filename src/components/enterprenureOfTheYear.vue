@@ -26,8 +26,8 @@
     </div>
   <br>
   <div class="first-input">
-     <input v-model="output" type="radio" value="RELL (300L)" name="gender" id="MR D">
-     <label for="MR D">RELL (300L)</label>
+     <input v-model="output" type="radio" value="JUSTICE (400L)" name="gender" id="MR D">
+     <label for="MR D">JUSTICE (400L)</label>
      </div>
      <br>
      <div class="first-input">

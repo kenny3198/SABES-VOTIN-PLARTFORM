@@ -16,8 +16,8 @@
    </div>
     <br>
    <div class="first-input">
-    <input v-model="output" type="radio" value="A.B SHARP" name="gender" id="MR C">
-    <label for="MR C">A.B SHARP</label>
+    <input v-model="output" type="radio" value="AMINAT" name="gender" id="MR C">
+    <label for="MR C">AMINAT</label>
     </div>
   <br>
     <div class="first-input">

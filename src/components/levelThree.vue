@@ -6,8 +6,8 @@
       <h2 class="repeated">REPEATED VOTES DECREASE THE USERS VOTE BY -1</h2>
   <div class="container">
     <div class="first-input">
-      <input v-model="output" type="radio" value="T.God" name="gender" id="Mr A">
-     <label for="Mr A">T.GOD</label>
+      <input v-model="output" type="radio" value="RASH" name="gender" id="Mr A">
+     <label for="Mr A">RASH</label>
     </div>
      <br>
     <div class="first-input">
@@ -26,12 +26,11 @@
       </div>
       <br>
   <div class="first-input">
-     <input v-model="output" type="radio" value="DAMZY" name="gender" id="MR D">
-     <label for="MR D">DAMZY</label>
+     <input v-model="output" type="radio" value="BASH" name="gender" id="MR D">
+     <label for="MR D">BASH</label>
      </div>
-
-      
-  </div>
+     <br>
+   </div>
   <div class="btn-container">
      <button @click="voteLevelThree" class="btn">Vote</button>
     <button @click="results" class="btn">Results</button>
