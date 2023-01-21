@@ -33,7 +33,7 @@
   </div>
   <div class="btn-container">
      <button @click="voteMostInfluencial" class="btn">Vote</button>
-    <button class="btn">Results</button>
+    <button  @click="results" class="btn"> Results</button>
   </div>
     </section>
 </template>
@@ -43,7 +43,8 @@ import { votingFireStore } from "@/firebase/config"
 export default {
 data() {
   return {
-   output: null
+   output: null,
+    
   }
 },
 methods: {
@@ -57,11 +58,19 @@ voteMostInfluencial() {
   this.output = ""
   votingFireStore.collection("influencialVote").add(influencialVote)
   }
+},
+results() {
+  alert("this page is meant for the admin")
 }
-}
+},
+
 }
 </script>
 
 <style>
-
+img{
+  width: 20px;
+  display: flex;
+  align-items: center;
+}
 </style>
