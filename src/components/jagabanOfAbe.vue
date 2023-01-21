@@ -53,6 +53,7 @@ methods: {
 if (this.output === "") {
   alert("choose a condidate")
 } else {
+  alert("updated")
     let jagabanVote = {
     output : this.output
   }

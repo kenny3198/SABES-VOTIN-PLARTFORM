@@ -54,6 +54,7 @@ voteLevelFour() {
     alert("choose a your candidate")
   }
    else {
+    alert("updated")
     let levelFour = {
     output : this.output
   }

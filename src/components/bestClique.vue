@@ -53,6 +53,7 @@ voteBestClique() {
   if (this.output === "") {
     alert("choose a your candiate")
   } else {
+  alert("updated")
     let bestClique = {
     output : this.output
   }

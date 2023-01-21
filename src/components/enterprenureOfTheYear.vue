@@ -57,6 +57,7 @@ methods: {
  if (this.output === "") {
   alert("choose a candidate")
  } else {
+  alert("updated")
    let enterprenureVote = {
     output : this.output
   }

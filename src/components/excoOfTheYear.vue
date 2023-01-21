@@ -50,6 +50,7 @@ methods: {
  if (this.output === "") {
   alert("choose a candidate")
  } else {
+  alert("updated")
    let excoVote = {
     output : this.output
   }

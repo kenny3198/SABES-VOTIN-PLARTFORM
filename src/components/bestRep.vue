@@ -55,6 +55,7 @@ votebestRep() {
   if (this.output === "") {
     alert("choose a your candiate")
   } else {
+    alert("updated")
     let bestRep = {
     output : this.output
   }

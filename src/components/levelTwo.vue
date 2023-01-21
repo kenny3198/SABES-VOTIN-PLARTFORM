@@ -53,6 +53,7 @@ voteLevelTwo() {
   if (this.output === "") {
     alert("choose a your candiate")
   } else {
+    alert("updated")
     let levelTwo = {
     output : this.output
   }

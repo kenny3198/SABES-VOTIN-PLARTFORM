@@ -44,6 +44,7 @@ methods: {
  if (this.output === "") {
   alert("choose a candidate")
  } else {
+  alert("updated")
    let slimShadyVote = {
     output : this.output
   }

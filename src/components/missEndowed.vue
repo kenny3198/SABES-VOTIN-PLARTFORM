@@ -51,6 +51,7 @@ methods: {
 if (this.output === "") {
   alert("choose a condidate")
 } else {
+  alert("updated")
     let missEndowedVote = {
     output : this.output
   }

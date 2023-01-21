@@ -53,6 +53,7 @@ voteGraphic() {
 if (this.output === "") {
   alert("choose a candidate")
 } else {
+  alert("updated")
     let graphicVote = {
     output : this.output
   }

@@ -52,6 +52,7 @@ voteMostInfluencial() {
   if (this.output === "") {
     alert("chose a candidate")
   } else {
+    alert("updated")
     let influencialVote = {
     output : this.output
   }

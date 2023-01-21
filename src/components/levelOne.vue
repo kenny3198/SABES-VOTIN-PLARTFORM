@@ -6,8 +6,8 @@
       <h2 class="repeated">REPEATED VOTES DECREASE THE USERS VOTE BY -1</h2>
   <div class="container">
     <div class="first-input">
-      <input v-model="output" type="radio" value="KAFFY" name="gender" id="Mr A">
-     <label for="Mr A">KAFFY</label>
+      <input v-model="output" type="radio" value="HAFFY" name="gender" id="Mr A">
+     <label for="Mr A">HAFFY</label>
     </div>
      <br>
     <div class="first-input">
@@ -44,6 +44,7 @@ voteLevel() {
   if (this.output === "") {
     alert("choose a your candiate")
   } else {
+    alert("updated")
     let faceOfLevelOne = {
     output : this.output
   }

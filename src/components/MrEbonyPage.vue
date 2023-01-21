@@ -53,6 +53,7 @@ voteEbony() {
 if (this.output === "") {
     alert("choose a candiate")
 } else {
+  alert("updated")
       let ebonyVote = {
     output : this.output
   }

@@ -53,6 +53,7 @@ voteMaleWardrobe() {
   if (this.output === "") {
     alert("choose a your candiate")
   } else {
+    alert("updated")
     let maleWardrobeVote = {
     output : this.output
   }

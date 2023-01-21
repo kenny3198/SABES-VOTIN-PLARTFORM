@@ -44,6 +44,7 @@ methods: {
 if (this.output === "") {
   alert("choose a candidtae")
 } else {
+  alert("updated")
     let socialVote = {
     output : this.output
   }
