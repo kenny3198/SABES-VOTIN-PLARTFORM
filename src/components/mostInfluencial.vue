@@ -25,33 +25,16 @@
      <label for="MR D">PATO (400)</label>
      </div>
      <br>
-     <div class="first-input">
-      <input v-model="output" type="radio" value="RELL (300L)" name="gender" id="MR E">
-      <label for="MR E">RELL (300)</label>
-      </div>
-      <br>
-      <div class="first-input">
-      <input v-model="output" type="radio" value="AMINA (400L)" name="gender" id="MR E">
-      <label for="MR E">AMINA (400)</label>
-      </div>
-      <br>
-      <div class="first-input">
-      <input v-model="output" type="radio" value="BOSSMAN (500L)" name="gender" id="MR E">
-      <label for="MR E">BOSSMAN (500)</label>
-      </div>
-      <br>
       <div class="first-input">
       <input v-model="output" type="radio" value="JUDE (500L)" name="gender" id="MR E">
       <label for="MR E">JUDE (500)</label>
       </div>
-       <!-- <p> hidden results {{ output }}</p> -->
+      <br>
   </div>
   <div class="btn-container">
      <button @click="voteMostInfluencial" class="btn">Vote</button>
     <button class="btn">Results</button>
   </div>
-
-   
     </section>
 </template>
 

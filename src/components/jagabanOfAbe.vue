@@ -29,17 +29,7 @@
       <input v-model="output" type="radio" value="IBM (400L)" name="gender" id="MR E">
       <label for="MR E">IBM (400L)</label>
       </div>
-      <br>
-       <div class="first-input">
-      <input v-model="output" type="radio" value="BLAZE (500L)" name="gender" id="MR E">
-      <label for="MR E">BLAZE (500L)</label>
-      </div>
-      <br>
-       <div class="first-input">
-      <input v-model="output" type="radio" value="BOSS (500L)" name="gender" id="MR E">
-      <label for="MR E">BOSSMAN (500L)</label>
-      </div>
-       <!-- <p> hidden results {{ output }}</p> -->
+   
   </div>
   <div class="btn-container">
      <button @click="voteJagaban" class="btn">Vote</button>
