@@ -129,7 +129,10 @@ export default {
       flex-direction: column;
       align-items: center;
       gap: 7px;
-      width: 100%;
+      overflow-x: hidden;
+    }
+    button{
+      font-size: 1rem;
     }
   }
   
