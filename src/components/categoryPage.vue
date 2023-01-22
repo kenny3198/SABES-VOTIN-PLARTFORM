@@ -6,6 +6,7 @@
  <button @click="LevelFourFace">FACE OF 400L</button>
  <button @click="LevelFiveFace">FACE OF 500L</button>
 <button @click="ebony">MR EBONY</button>
+  <button @click="mrsEbony">MISS EBONY</button>
 <button @click="student">STUDENT OF THE YEAR</button>
  <button @click="jagaban">JAGABAN OF ABE</button>
   <button @click="graphicDesigner">GRAPHICDESIGNER OF THE YEAR</button>
@@ -87,6 +88,9 @@ export default {
  },
  coupleOfYear() {
   this.$router.push({ name: "coupleOfYear"})
+ },
+ mrsEbony() {
+  this.$router.push({name: "mrsEbonyPage"})
  },
  excoOfTheYear() {
   this.$router.push({ name: "excoOfTheYear"})

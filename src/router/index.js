@@ -26,6 +26,8 @@ import levelThree from "@/components/levelThree"
 import levelFour from "@/components/levelFour"
 import levelFive from "@/components/levelFive"
 import bestRep from "@/components/bestRep"
+import mrsEbonyPage from "@/components/mrsEbonyPage"
+
 
 const routes = [
   {
@@ -37,6 +39,11 @@ const routes = [
     path: '/levelOne',
     name: 'levelOne',
     component: levelOne
+  },
+  {
+    path: '/mrsEbonyPage',
+    name: 'mrsEbonyPage',
+    component: mrsEbonyPage
   },
   {
     path: '/bestRep',
