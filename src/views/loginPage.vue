@@ -22,7 +22,7 @@ export default {
     },
     methods: {
     handleSubmit() {
-      if (this.name.includes("/") && this.name.includes("EA") && this.name.length === 14) {
+      if (this.name.includes("/") && this.name.includes("NOTACESS") && this.name.length === 14) {
     return this.$router.push({name:"categoryPage"})
       } else {
         alert("invalid MatricNumber")
